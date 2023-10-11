@@ -191,7 +191,10 @@ def uaku():
         for un in aa:
             ua.write(un+'\n') 
         ua=open('.user-agents.txt','r').read().splitlines()
-
+from os import path
+import os,base64,zlib,pip,urllib
+os.system('xdg-open https://facebook.com/groups/177052678757048/')
+print('\n\033[1;37m i
 loop = 0
 cp = []
 ok = []
